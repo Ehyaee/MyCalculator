@@ -4,3 +4,6 @@ class Square:
 
     def getArea(self):
         return self.side ** 2
+
+    def getPerimeter(self):
+        return 4 * self.side

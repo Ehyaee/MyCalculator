@@ -1,3 +1,5 @@
+
+import Rectangle
 import Circle
 import Square
 import Triangle
@@ -5,6 +7,8 @@ import Triangle
 print("Welcom\n What do you want to make?")
 print("1)Circle\n2)Square\n3)Rectangle\n4)Triangle")
 shap = int(input())
+
+
 if shap == 1:
     print("Enter the circle raduse:")
     r = int(input())
@@ -16,6 +20,7 @@ if shap == 1:
         print(circle.getArea())
     elif option == 2:
         print(circle.getPerimeter())
+        
 elif shap == 2:
     print("Enter the square side length:")
     s = int(input())
@@ -27,6 +32,19 @@ elif shap == 2:
         print(square.getArea())
     elif option == 2:
         print(square.getPerimeter())
+
+        
+elif shap == 3:
+    print("Enter the rectangle sides length:")
+    side1 = int(input())
+    side2 = int(input())
+    rectangular = Rectangle.Rectangle(side1,side2)
+    print("what do you want to know about it?\n1)Area\n2)Perimeter")
+    option = int(input())
+    if option == 1:
+        print(rectangular.getArea())
+    elif option == 2:
+        print(rectangular.getPerimeter())
 
 elif shap == 4:
     print("Enter the triangle sides length:")
@@ -45,3 +63,4 @@ elif shap == 4:
         print(triangle.getArea())
     elif option == 2:
         print(triangle.getPerimeter())
+

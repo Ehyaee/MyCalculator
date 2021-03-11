@@ -9,4 +9,4 @@ if shap == 3:
     side2 = int(input())
     my_rect = Rectangle.Rectangle(side1,side2)
     print("Rectangle area = ",my_rect.getArea())
-    # print("Rectangle perimeter = ",my_rect.getPerimeter())
+    print("Rectangle perimeter = ",my_rect.getPerimeter())

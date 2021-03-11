@@ -9,3 +9,5 @@ class Rectangle:
     def getArea(self):
         return self.side2* self.side1
 
+    def getPerimeter(self):
+        return 2*(self.side2+self.side1)

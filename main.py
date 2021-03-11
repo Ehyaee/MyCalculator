@@ -1,5 +1,6 @@
 import Circle
 import Square
+import Triangle
 
 print("Welcom\n What do you want to make?")
 print("1)Circle\n2)Square\n3)Rectangle\n4)Triangle")
@@ -26,3 +27,5 @@ elif shap == 2:
         print(square.getArea())
     elif option == 2:
         print(square.getPerimeter())
+
+

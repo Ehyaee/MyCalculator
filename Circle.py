@@ -7,3 +7,6 @@ class Circle:
 
     def getArea(self):
         return pi * this.radius**2
+
+    def getPerimeter(self):
+        return pi * 2 * this.radius

@@ -28,4 +28,20 @@ elif shap == 2:
     elif option == 2:
         print(square.getPerimeter())
 
-
+elif shap == 4:
+    print("Enter the triangle sides length:")
+    print("base:\n")
+    base = int(input())
+    print("height:\n")
+    height = int(input())
+    print("b:\n")
+    b = int(input())
+    print("c:\n")
+    c = int(input())
+    triangle = Triangle.Triangle(base,height,b,c)
+    print("what do you want to know about it?\n1)Area\n2)Perimeter")
+    option = int(input())
+    if option == 1:
+        print(triangle.getArea())
+    elif option == 2:
+        print(triangle.getPerimeter())
